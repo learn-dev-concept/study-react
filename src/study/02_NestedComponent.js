@@ -6,10 +6,12 @@ function Button() {
 // Div 태그로 Wrapping 하거나 <> </>을 사용해야 한다.
 // 또한, React Component는 무조건 첫 글자가 대문자로 시작해야 컴포넌트로 인식한다. --> <'B'utton />
 export default function Test() {
-    return <div>
+    return (
+        <div>
             <h3>
                 hi
             </h3>
             <Button />
-            </div>;
+        </div>
+    );
 }
